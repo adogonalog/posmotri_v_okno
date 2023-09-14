@@ -49,7 +49,6 @@ a {
   align-items: flex-end;
   padding: 133px 30px;
   gap: 30px;
-  inline-size: 100%;
 }
 
 .visually-hidden {
