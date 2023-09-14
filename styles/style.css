@@ -16,6 +16,8 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 h1,
@@ -45,8 +47,8 @@ a {
 
 .content {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
+  justify-content: center;
   padding: 133px 30px;
   gap: 30px;
 }
@@ -98,6 +100,7 @@ a {
 
 .result {
   padding-top: 78px;
+  padding-bottom: 3px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -131,6 +134,7 @@ a {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  margin-bottom: 10px;
 }
 
 .search-form__textfield {
